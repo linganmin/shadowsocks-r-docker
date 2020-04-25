@@ -1,0 +1,7 @@
+version: '3.1'
+services: 
+  app:
+    image: teddysun/shadowsocks-r
+    volumes: ./:/etc/shadowsocks-r
+    ports:
+      - "65530:65530"
